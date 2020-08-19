@@ -113,6 +113,7 @@ main article h5 {
 section p {
     text-align: justify;
     font-size: 1.8rem;
+    font-family: serif;
     color: sienna;
 }
 
@@ -204,4 +205,16 @@ button {
 .submit:hover {
     color: red !important;
     background: white;
+}
+
+.sub-container h2,
+footer p {
+    text-align: center;
+    line-height: 1.4em;
+    margin-bottom: 10px;
+}
+
+footer p {
+    color: white;
+    font-weight: bold;
 }
