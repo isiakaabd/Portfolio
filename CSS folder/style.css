@@ -17,20 +17,25 @@
 
 nav h1 {
     float: left;
-    font-size: 25px;
+    font-size: 35px;
     padding-top: 20px;
+    font-weight: bolder;
+}
+
+.logo {
+    border: 4px solid navajowhite;
 }
 
 nav h1 a:hover {
     color: midnightblue;
-    border: 8px solid #fff;
-    background: #fff;
+    border: 8px solid khaki;
+    background: khaki;
 }
 
 nav h1 a {
     text-decoration: none;
     text-transform: uppercase;
-    color: khaki;
+    color: white;
     letter-spacing: .3em;
     line-height: 1.8em;
     overflow: auto;
@@ -48,19 +53,20 @@ nav ul li {
 
 nav li a {
     text-decoration: none;
-    color: lightyellow;
+    color: #fff;
     line-height: 1.4;
     font-size: 25px;
-    font-weight: 400;
+    font-weight: bolder;
     display: block;
     padding: 20px;
     overflow: auto;
 }
 
 nav ul li a:hover {
-    color: midnightblue;
+    /* color: midnightblue; */
     /* border: 5px solid #fff; */
-    background: #fff;
+    color: midnightblue;
+    background: khaki;
 }
 
 main {
@@ -113,7 +119,7 @@ main article h5 {
 section p {
     text-align: justify;
     font-size: 1.8rem;
-    font-family: serif;
+    font-family: 'Arial Narrow', 'Franklin Gothic Medium', Arial, sans-serif;
     color: sienna;
 }
 
@@ -121,6 +127,7 @@ section blockquote {
     text-align: center;
     font-size: 1.8rem;
     color: sienna;
+    font-family: "Pacifico-Regular", Georgia, Times, 'Times New Roman', serif;
 }
 
 footer {
@@ -144,7 +151,7 @@ textarea {
     padding: 20px;
     display: block;
     /* margin-bottom: 10px; */
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, "raleway thin", sans-serif;
     border: 2px solid khaki;
     color: gray;
     border-radius: 5px;
@@ -215,6 +222,7 @@ footer p {
 }
 
 footer p {
-    color: white;
+    /* color: #333; */
     font-weight: bold;
+    font-family: "raleway thin";
 }
